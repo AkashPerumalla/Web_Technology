@@ -1,0 +1,27 @@
+/* h1:first-child{
+    background-color: red;
+} */
+
+/* h1:last-child{
+    background-color: crimson;
+} */
+
+/* h1:nth-child(0){
+    background-color: yellow;
+} */
+
+/* h1:nth-child(even){
+    background-color: yellow;
+} */
+
+/* h1:nth-child(odd){
+    background-color: green;
+} */
+
+h1:first-of-type{
+    background-color: orange;
+}
+
+h1:last-of-type{
+    background-color: green;
+}

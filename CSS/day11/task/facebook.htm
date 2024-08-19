@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="facebook.css" />
+    <link rel="shortcut icon" href="./facebook.svg" type="image/x-icon" />
+
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      #inner-container-left {
+        /* border: 2px solid blue; */
+        width: 50%;
+        height: 600px;
+      }
+      #container {
+        /* border: 2px solid; */
+        height: fit-content;
+        width: 500px;
+        margin: auto;
+        margin-top: 200px;
+      }
+      img {
+        height: 100px;
+      }
+      p {
+        margin-top: -30px;
+        margin-left: 25px;
+        font-size: x-large;
+        font-weight: bold;
+      }
+      #inner-container-right {
+        /* border: 2px solid red; */
+        width: 35%;
+        height: 600px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        padding: 50px;
+        box-shadow: 2px 2px 5px;
+      }
+
+      #form {
+        /* border: 2px solid; */
+        width: 90%;
+        height: 496px;
+        /* margin: auto; */
+      }
+      input {
+        text-indent: 15px;
+        height: 50px;
+        border-radius: 10px;
+        
+        width: 100%;
+      }
+      input:focus {
+        /* border: none; */
+        /* border-color: #1877f2; */
+        outline-color: #1877f2;
+
+      }
+      #button {
+        background-color: #1877f2;
+        border-color: #1877f2;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        height: 50px;
+        width: 100%;
+      }
+      #button:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="outer-container">
+      <div id="inner-container-left">
+        <div id="container">
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+            alt=""
+          />
+          <br /><br />
+          <p>
+            Facebook helps you connect and share <br />
+            with the people in your life.
+          </p>
+        </div>
+      </div>
+      <div id="inner-container-right">
+        <div id="form">
+          <form action="">
+            <input type="text" placeholder="Email address or phone number" />
+            <br /><br />
+            <input type="password" name="pwd" id="pwd" placeholder="Password" />
+            <br />
+            <br />
+          </form>
+          <input id="button" type="submit" value="Log in" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

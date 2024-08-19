@@ -1,0 +1,42 @@
+/* descendent selector [space]
+
+div h1{
+    background-color: aqua;
+}
+
+child selector [>]
+
+div > h1{
+    background-color: crimson;
+}
+
+div > span > h1 {
+    background-color: aqua;
+}
+
+or
+
+div span>h1{
+    background-color: greenyellow;
+} 
+
+adjacent sibling
+
+div + h1 {
+    background-color: blue;
+}
+
+div + h1 + h1 {
+    background-color: aquamarine;
+}
+
+general sibling
+*/
+
+div ~ h1 {
+    background-color: whitesmoke;
+}
+
+* {
+    background-color: black;
+}

@@ -1,0 +1,19 @@
+#card-container{
+    border: 2px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    height: 50%;
+    width: 100%;
+}
+.card{
+    border: 2px solid green;
+    height: 300px;
+    width: 30%;
+}
+

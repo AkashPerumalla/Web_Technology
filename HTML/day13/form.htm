@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tag</title>
+  </head>
+  <body>
+    <div>
+      <fieldset>
+        <legend>Registration Form</legend>
+
+        <form action="#" method="post">
+          <table>
+            <tr>
+              <td><label for="name">Name : </label></td>
+              <td><input type="text" id="name" name="name" /></td>
+            </tr>
+            <tr>
+              <td><label for="lname">LName : </label></td>
+              <td><input type="text" id="lname" name="lname" /></td>
+            </tr>
+            <tr>
+              <td><label for="phone">Phone No. : </label></td>
+              <td><input type="tel" id="phone" name="phone" /></td>
+            </tr>
+            <tr>
+              <td><label for="age">Age : </label></td>
+              <td><input type="number" id="age" name="age" /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email : </label></td>
+              <td><input type="email" /></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password : </label></td>
+              <td><input type="password" /></td>
+            </tr>
+            <tr>
+              <td><label for="gender">Gender : </label></td>
+              <td>
+                <input type="radio" name="gender" id="gender" />Male
+                <input type="radio" name="gender" id="gender" />Female
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qualification">Qualification</label>
+                </td>
+                <td>
+                    <select name="qualification" id="qualification">
+                        <option value="1">B.Tech</option>
+                        <option value="2">B.Sc</option>
+                        <option value="3">B.Com</option>
+                        <option value="4">B.Arch</option>
+                        <option value="5">B.E</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbies">Hobbies : </label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobbies" id="hobbie1">Singing
+                    <input type="checkbox" name="hobbies" id="hobbie2">Dancing
+                    <input type="checkbox" name="hobbies" id="hobbie3">Reading Books
+                    <input type="checkbox" name="hobbies" id="hobbie4">Listening Music
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">DOB : </label>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <button
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  style="height: 20px; width: 60px"
+                >
+                  Submit
+                </button>
+              </td>
+              <td>
+                <button
+                  type="reset"
+                  id="submit"
+                  style="height: 20px; width: 60px"
+                >
+                  Reset
+                </button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

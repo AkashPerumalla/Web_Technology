@@ -1,0 +1,46 @@
+/* ID Selector */
+#demo{
+    color:red;
+    background-color: cyan;
+}
+#demo1{
+    color: blue;
+    background-color: yellow;
+}
+
+/* Class Selector */
+
+.demo2{
+    color: red;
+    background-color: lavenderblush;
+}
+.demo3{
+    text-align: right;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-shadow: 10px crimson;
+}
+
+/* Element Selector */
+h2{
+    color: blue;
+    text-align: center;
+}
+
+
+
+/* Grouping Selector */
+
+#demo,.demo2,h2{
+    text-decoration: line-through;
+}
+
+/* Universal Selector */
+/* body{
+    background-color: black;
+} */
+
+*{
+    background-color: lightslategray;
+}

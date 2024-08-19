@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#static{
+    height: 50px;
+    width: 400px;
+    border: 2px solid;
+    color: black;
+    background-color: bisque;
+    text-align: center;
+
+    position: static;
+
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: blueviolet;
+    position: fixed;
+    color: white;
+}
+#div1{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+
+    position: relative;
+}
+#fixed{
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    /* position: fixed; */
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    position: sticky;
+    top: 200px;
+}

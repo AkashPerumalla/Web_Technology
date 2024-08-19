@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tag</title>
+  </head>
+  <body>
+    <div>
+      <fieldset>
+        <legend>Registration Form</legend>
+
+        <form action="#" method="post" autocomplete="on">
+          <table>
+            <tr>
+              <td><label for="name">Name : </label></td>
+              <td><input type="text" id="name" name="name" /></td>
+            </tr>
+            <tr>
+              <td><label for="lname">LName : </label></td>
+              <td><input type="text" id="lname" name="lname" /></td>
+            </tr>
+            <tr>
+              <td><label for="phone">Phone No. : </label></td>
+              <td><input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number" minlength="10" maxlength="10" required /></td>
+            </tr>
+            <tr>
+              <td><label for="age">Age : </label></td>
+              <td><input type="number" id="age" name="age" /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email : </label></td>
+              <td><input type="email" required/></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password : </label></td>
+              <td><input type="password" pattern="[A-Z]{4}[a-z]{4}[0-9]{4}" title="pattern is ABCDabcd1234"/></td>
+            </tr>
+            <tr>
+              <td><label for="gender">Gender : </label></td>
+              <td>
+                <input type="radio" name="gender" id="gender" checked/>Male
+                <input type="radio" name="gender" id="gender" />Female
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qualification">Qualification</label>
+                </td>
+                <td>
+                    <select name="qualification" id="qualification">
+                        <option value="1">B.Tech</option>
+                        <option value="2">B.Sc</option>
+                        <option value="3">B.Com</option>
+                        <option value="4">B.Arch</option>
+                        <option value="5">B.E</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbies">Hobbies : </label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobbies" id="hobbie1">Singing
+                    <input type="checkbox" name="hobbies" id="hobbie2">Dancing
+                    <input type="checkbox" name="hobbies" id="hobbie3" checked>Reading Books
+                    <input type="checkbox" name="hobbies" id="hobbie4">Listening Music
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">DOB : </label>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <label for="range">Range : </label>
+                </td>
+                <td>
+                  <input type="range">
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="search">Search : </label>
+              </td>
+              <td>
+                <input type="search" value="http://www.google.com" disabled>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="file">File : </label>
+              </td>
+              <td>
+                <input type="file" name="file" id="file">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="url">URL : </label>
+              </td>
+              <td>
+                <input type="url" name="url" id="url" value="http://www.github.com/" readonly>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="color">Color : </label>
+              </td>
+              <td>
+                <input type="color" name="color" id="color">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="image" hidden >Image : </label>
+              </td>
+              <td>
+                <input type="image" src="../day10/images/instagram.svg" alt="insta" hidden>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="dtl">Date-Time-Local : </label>
+              </td>
+              <td>
+                <input type="datetime-local" name="" id="">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  style="height: 20px; width: 60px"
+                >
+                  Submit
+                </button>
+              </td>
+              <td>
+                <button
+                  type="reset"
+                  id="submit"
+                  style="height: 20px; width: 60px"
+                >
+                  Reset
+                </button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

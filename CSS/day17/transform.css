@@ -1,0 +1,66 @@
+#square{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    /* text-align: center; */
+    /* background-color: red; */
+    /* color: yellow; */
+
+
+    /* transition: height 5s, width 5s; */
+    /* transition: background-color; */
+    /* transition-duration: 5s; */
+    /*all the propertises will be effected */
+    /* transition-delay: 5s; */
+    /* transition-property: height , width;*/
+
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+
+    /* position: relative;
+    left: 200px;
+    top:200px */
+
+}
+img{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    transition-duration: 5S;
+    transform: rotate(7770deg);
+}
+img:hover{
+    transform: translateX(800px);
+}
+
+#circle:hover{
+    /* height: 200px; */
+    width: 100px;
+    /* background-color: yellow; */
+    /* transform: translate(400px,400px); */
+    /* transform: translateX(200px); */
+    /* transform: translateY(300px); */
+    /* border-radius: 100%; */
+
+    /* transform: rotate(8000deg); */
+    /* transform: rotateX(8000deg); */
+    /* transform: rotateY(8000deg); */
+
+    /* transform: scale(2,2); */
+    /* transform: scaleX(3); */
+    /* transform: scaleY(3); */
+
+    /* transform: skew(5deg,5deg); */
+    /* transform: skewX(50deg); */
+    /* transform: skewY(50deg); */
+
+
+}
+#circle{
+    border-radius: 100%;
+    height: auto;;
+    /* background-color: blue; */
+}

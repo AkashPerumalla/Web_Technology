@@ -1,0 +1,39 @@
+#demo1,#demo2,#demo3,#demo4,#demo5,#demo6,#demo6,#demo7{
+    border: 2px solid rebeccapurple;
+    height: 250px;
+    width: 250px;
+    display: inline-flex;
+
+    /* background-image: linear-gradient(orange,white,white,green); */
+    /* background-image: linear-gradient(to left,rgb(20, 161, 96),white,rgb(221, 165, 10)); */
+    /* background-image: linear-gradient(to right,orange,white,green); */
+    /* background-image: linear-gradient(to top,green,white,orange); */
+    background-image: linear-gradient(to bottom,orange,white,green);
+}
+
+#section{border: 2px solid;
+    height: 300px;
+
+    display: i;
+    flex-direction: row;
+
+}
+
+#demo2{
+    background-image: radial-gradient(circle farthest-corner at 60% 60%,green,white,orange);
+}
+#demo3{
+    background-image: radial-gradient(circle closest-side at 40% 60%,green,white,orange);
+}
+#demo4{
+    background-image: radial-gradient(circle farthest-corner at 60% 40%,green,white,orange);
+}
+
+#demo5{
+    background-image: radial-gradient(circle closest-corner at 60% 60%,green,white,orange);
+}
+
+
+#demo6{
+    background-image: conic-gradient(orange,white,green);
+}

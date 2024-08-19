@@ -1,0 +1,48 @@
+h1{
+    color: magenta;
+
+    background-image: url("https://cdn.pixabay.com/photo/2023/12/16/23/00/christmas-8453337_1280.jpg");
+
+    background-size: 10%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+    background-position: center;
+
+}
+p{
+    /* font-size: 30px; */
+    /* font-size: large; */
+    /* font-size: larger; */
+    /* font-size: medium; */
+    /* font-size: small; */
+    /* font-size: smaller; */
+    /* font-size: x-large; */
+
+    /* font-weight: bolder; */
+
+    font-family: cursive;
+
+    /* font-style: italic; */
+    /* font-style: oblique; */
+
+    /* font-variant: small-caps; */
+
+    color: white;
+
+
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2023/12/16/23/00/christmas-8453337_1280.jpg");
+    /* background-size: 50%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+}

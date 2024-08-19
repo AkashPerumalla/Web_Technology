@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div align="center">
+      <form action="#">
+        <table border="2px" cellpadding="0px" cellspacing="0px">
+          <tr>
+            <td>
+              <label for="username">UserName :</label>
+            </td>
+            <td>
+              <input type="text" name="username" id="username" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="username">UserId : </label>
+            </td>
+            <td>
+              <input type="text" name="userid" id="userid" />
+            </td>
+          </tr>
+          <tr>
+            <td align="center" colspan="2">
+              <button type="submit">Insert</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+
+      <br /><br />
+
+      <table border="2px" style="width: 400px">
+        <thead>
+          <tr>
+            <th>UserName</th>
+            <th>ID</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <script src="./table.js"></script>
+  </body>
+</html>

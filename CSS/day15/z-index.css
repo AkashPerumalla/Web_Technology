@@ -1,0 +1,19 @@
+#demo1{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    z-index: -1;
+
+}
+p{
+    color: gold;
+}
+
+
+#demo1:hover{
+    /* opacity: 0;
+    opacity: 1; */
+    opacity: 0.2;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+@keyframes vibgor{
+    0% {
+        background-color: violet;
+        transform: rotate(20deg);
+    }
+    20%{
+        background-color: indigo;
+        transform: rotate(40deg);
+    }
+    40%{
+        background-color: blue; 
+        transform: rotate(60deg);   
+    }
+    60%{
+        background-color: green;
+        transform: rotate(80deg);
+    }
+    80%{
+        background-color: orange;
+        transform: rotate(120deg);
+    }
+    100%{
+        background-color: red ;
+        transform: rotate(140deg);
+    }
+    
+}
+
+@keyframes gradient {
+    from{
+        background-image: radial-gradient(red,yellow,green);
+    }
+    to{
+        background-image: radial-gradient(blue,crimson,black);
+    }
+    
+}
+
+#gradient{
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: black;
+    animation-name: gradient;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#circle{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: black;
+    animation-name: vibgor;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img-anime {
+    from{
+        transform: rotate(360deg);
+        transform: translate(400px);
+    }
+    to{
+        
+        transform: translateX(-400px);
+        transform: rotate(360deg);
+        
+
+    }
+    
+}
+#img-animation{
+    border: 2px solid;
+    padding: 0%;
+    margin: 0%;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#img-animation figure{
+    /* border: 2px solid; */
+    height: 200px;
+    width:200px;
+    transition: img-anime;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    animation-name: img-anime;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}

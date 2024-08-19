@@ -1,0 +1,54 @@
+/* box icon */
+
+div h1>i{
+    background-color: white;
+    font-size: xx-large;
+}
+
+
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+h1::first-line {
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2::after{
+    content: url("https://cdn.pixabay.com/photo/2016/10/16/16/45/miniature-figure-1745753_1280.jpg");
+}
+
+h2::before{
+    content: url('https://cdn.pixabay.com/photo/2023/12/09/19/04/ai-generated-8439975_1280.png');
+}
+
+li::marker{
+    /* color:blue; */
+    content: "😍";
+}
+li+li::marker{
+    content: "❤️";
+}
+
+li+li+li::marker{
+    content: "😘";
+}
+li+li+li+li::marker{
+    content: "🥰";
+}
+li+li+li+li+li::marker{
+    content: "💏";
+}
+
+h3::selection{
+    color: white;
+    background-color: black;
+}
+
+*{
+    font-family: 'Bungee Spice', sans-serif;
+}

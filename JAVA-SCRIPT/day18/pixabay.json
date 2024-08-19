@@ -1,0 +1,22 @@
+[
+    {
+        "name":"image1",
+        "id":1,
+        "url":"https://cdn.pixabay.com/photo/2024/01/25/12/30/forest-8531787_1280.jpg"
+    },
+    {
+        "name":"image2",
+        "id":2,
+        "url":"https://cdn.pixabay.com/photo/2023/09/30/18/25/goose-8286275_1280.jpg"
+    },
+    {
+        "name":"image3",
+        "id":3,
+        "url":"https://cdn.pixabay.com/photo/2024/01/04/21/54/volcano-8488486_1280.jpg"
+    },
+    {
+        "name":"image4",
+        "id":4,
+        "url":"https://cdn.pixabay.com/photo/2024/01/05/13/59/ship-8489587_1280.jpg"
+    }
+]

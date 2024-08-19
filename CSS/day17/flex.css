@@ -1,0 +1,30 @@
+ol{
+    border: 2px solid;
+    list-style: none;
+    padding: 0%;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; default*/
+    /* flex-wrap: wrap-reverse; 
+    
+    flex wrap is mandatory
+    */
+    /* align-content: center; */
+    align-content: flex-end;
+    /* align-content: flex-start */
+
+}
+ol li{
+    border: 2px solid red;
+    height: 30px;
+    width: 50px;
+    padding: 10px 10px;
+    margin: 5px;
+}

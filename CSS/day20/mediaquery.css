@@ -1,0 +1,40 @@
+#demo{
+    border: 2px solid;
+    height: 250px;
+}
+
+@media (min-width:150px) and (max-width:450px) {
+    #demo{
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    
+}
+
+@media (min-width:450px) and (max-width:800px) {
+
+    #demo{
+        background-color: navy;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        color: #fff;
+    }
+    
+}
+
+@media (min-width:800px) and (max-width:1200px) {
+
+    #demo{
+        background-color: green;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        color: #fff;
+    }
+    
+}
+

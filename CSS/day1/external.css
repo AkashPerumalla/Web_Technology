@@ -1,0 +1,23 @@
+#orange{
+    color: orange;
+    background-color: orange;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+#white{
+    color: blue;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#green{
+    color: green;
+    background-color: green;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: underline;
+
+}

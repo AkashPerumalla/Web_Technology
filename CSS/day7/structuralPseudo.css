@@ -1,0 +1,26 @@
+/* div>h1:first-child{
+    background-color: red;
+}
+
+
+div>h1:nth-child(odd){
+    background-color: blue;
+}
+
+div>p:first-of-type{
+    background-color: yellow;
+}
+
+div>h1:last-of-type{
+    background-color: orange;
+}
+
+
+div>h1:last-child{
+    background-color: aqua;
+}
+ 
+
+div>p:nth-child(){
+    background-color: blue;
+} */

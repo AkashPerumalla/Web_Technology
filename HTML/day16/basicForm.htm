@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Information</title>
+    <style>
+        #header{
+            height: auto;
+            width: auto;
+            padding: 5px;
+            margin:0px;
+
+            border-radius: 10px;
+
+            background-color: red;
+            color: white;
+        }
+        #form{
+            height: auto;
+            width: auto;
+            padding: 100px;
+        }
+        #bgc{
+            background-color: rgb(231, 229, 229);
+            border-radius: 5px;
+        }
+        h3{
+            background-color: rgb(190, 190, 190);
+            border-radius: 5px;
+        }
+        span{
+            color: red;
+        }
+        p{
+            color: red;
+        }
+        sup{
+            color: red;
+        }
+        button{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div id="form">
+        <div id="header">
+        <h1><Big>JobSearch</Big> <small>.com</small></h1>
+        </div>
+        <h1>Create Your Account</h1>
+        <p>^ Required Information</p>
+
+        <div id="bgc">
+        <h3>Basic Information</h3>
+        <form >
+            <table align="center" border="0" cellpadding="0" cellspacing="15">
+                <tr>
+                    <td>
+                        <label for="email">Email <span><b>^</b></span></label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pwd">Password <span><b>^</b></span></label>
+                    </td>
+                    <td>
+                        <input type="password" name="pwd" id="pwd" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rtpwd">Retype Password <span><b>^</b></span></label>
+                    </td>
+                    <td>
+                        <input type="password" name="rtpwd" id="rtpwd" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">First Name <span><b>^</b></span></label>
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last Name <span><b>^</b></span></label>
+                    </td>
+                    <td>
+                        <input type="text" name="lname" id="lname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phno">Phone Number <span><b>^</b></span></label>
+                    </td>
+                    <td>
+                        <input type="tel" name="phno" id="phno" placeholder="999-999-9999" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="addr">Address <span><b>^</b></span></label></td>
+                    <td>
+                        <input type="text" name="addr" id="addr" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="city">City <span><b>^</b></span></label></td>
+                    <td>
+                        <input type="text" name="city" id="city" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="province">Province <span><b>^</b></span></label></td>
+                    <td>
+                        <select name="province" id="province" required>
+                            <option value="Alberta">Alberta</option>
+                            <option value="#">#</option>
+                            <option value="#">#</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">Country <span><b>^</b></span></label>
+                    </td>
+                    <td>
+                        <input type="text" id="country" name="country" required>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Education</h3>
+
+            <table align="center" border="0" cellpadding="0" cellspacing="15">
+                <tr>
+                    <td>
+                        <label for="scl">School <sup><b>^</b></sup></label>
+                    </td>
+                    <td>
+                        <input type="text" name="scl" id="scl" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="prog">Program <sup><b>^</b></sup></label>
+                    </td>
+                    <td>
+                        <input type="text" name="prog" id="prog" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="edul">Education Level <sup><b>^</b></sup></label>
+                    </td>
+                    <td>
+                        <select name="edul" id="edul">
+                            <option value="select">-select-</option>
+                            <option value="#">#</option>
+                            <option value="#">#</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td> 
+                    <td >
+                        <fieldset>
+                            <legend>Education Status</legend>
+                            <table>
+                                <tr>
+                                    <td><input type="radio" name="" id="">Graduation</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="radio" name="" id="">Current Enrolled</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="radio" name="" id="">Did Not Graduate</td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="graddt">Graduation Date</label>
+                    </td>
+                    <td>
+                        <input type="text" name="graddt" id="graddt">
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Work Expeerience</h3>
+
+            <table align="center" border="0" cellpadding="0" cellspacing="15">
+                <tr>
+                    <td>
+                        <label for="emp">Employer:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="emp" id="emp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jobt">Job Title:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="jobt" id="jobt">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jobd">Job Duty:</label>
+                    </td>
+                    <td>
+                        <textarea name="jobd" id="jobd" cols="20" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="worky">Worked Year:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="worky" id="worky">
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Attachments</h3>
+
+
+            <div>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label for="atmts">Attachments:</label>
+                    </td>
+                    <td>
+                        <input type="file" name="atmts" id="atmts">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            </div>
+        </div>
+
+        <table align="center" cellspacing="25">
+            <tr>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+                <td>
+                    <button type="submit">Apply</button>
+                </td>
+            </tr>
+        </table>
+        </form>
+
+    </div>
+    
+</body>
+</html>

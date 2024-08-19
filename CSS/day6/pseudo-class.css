@@ -1,0 +1,59 @@
+a:link{
+    color: white;
+    background-color: black;
+}
+
+a:active{
+    color: blue;
+    background-color: crimson;
+}
+
+a:visited{
+    color: green;
+    background-color: yellow;
+}
+
+input[type='checkbox']{
+    accent-color: red;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+input[type='radio']{
+    accent-color: purple;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+input[type='text']:focus{
+    height: 100px;
+    width: auto;
+    background-color: black;
+    caret-color: crimson;
+}
+
+input[type='text']:hover{
+    height: 100px;
+    width: auto;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;    
+}
+
+div:hover{
+
+    background-color: red;
+    transition-duration: 5s;
+    border-radius: 100%;
+}
+
